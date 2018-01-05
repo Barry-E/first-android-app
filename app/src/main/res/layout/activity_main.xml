@@ -11,18 +11,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Lottery Number:"
+        android:text="@string/random_number"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/textView2"
+        app:layout_constraintRight_toLeftOf="@+id/randomNumberTv"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/randomNumberTv"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/initial_random_number_value"
         app:layout_constraintLeft_toRightOf="@+id/textView"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView"
         app:layout_constraintRight_toRightOf="parent"
@@ -34,8 +34,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Generate Lottery Number"
+        android:onClick="generateAndDisplayLotteryNumber"
+        android:text="@string/generate_lottery_number"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </android.support.constraint.ConstraintLayout>
