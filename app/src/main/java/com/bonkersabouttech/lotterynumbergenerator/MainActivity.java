@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
         displayLotteryNumberToUser(randomNumber);
     }
 
-    private void displayLotteryNumberToUser(int randomNumber) {
+    private void displayLotteryNumberToUser(Integer randomNumber) {
         TextView randomNumberTv = (TextView) findViewById(R.id.randomNumberTv);
-        randomNumberTv.setText(randomNumber);
+        randomNumberTv.setText(randomNumber.toString());
     }
 
     // Our private method called "generateRandomNumber".  It accepts two arguments "min" and "max"
