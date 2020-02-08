@@ -1,1 +1,1 @@
-This is the code which accompanies the <a href="https://www.bonkersabouttech.com/howto/how-to-build-an-android-app-from-scratch/482">How To Build An Android App From Scratch</a> guide on <a href="https://www.bonkersabouttech.com">Bonkers About Tech</a>
+This is the code which accompanies the <a href="https://bonkersabouttech.com/how-to-build-an-android-app-from-scratch">How To Build An Android App From Scratch</a> guide on <a href="https://www.bonkersabouttech.com">Bonkers About Tech</a>
